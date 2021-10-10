@@ -62,9 +62,9 @@ public class RelayIvaActivity extends AppCompatActivity implements View.OnClickL
         AppDemo.setOnClickListener(this);
 
         fragmentManager = getSupportFragmentManager();
-        Exon21 exon21 = new Exon21();
+        AppDemoFragment appDemoFragment = new AppDemoFragment();
         fragmentManager.beginTransaction()
-                .replace(R.id.fragmentID,exon21)
+                .replace(R.id.fragmentID,appDemoFragment)
                 .commit();
     }
 

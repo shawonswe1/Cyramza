@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="75dp"
             android:orientation="horizontal"
-            android:weightSum="8"
+            android:weightSum="5"
             android:layout_margin="5dp"
             >
 
@@ -31,7 +31,9 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="AppDemo" />
+                android:text="AppDemo"
+                android:textSize="10dp"
+                />
 
             <Button
                 android:id="@+id/btn_Exon"
@@ -40,7 +42,8 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="EXON 21" />
+                android:text="EXON 21"
+                android:textSize="10dp"/>
 
             <Button
                 android:id="@+id/btn_moa"
@@ -49,7 +52,8 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="MOA" />
+                android:text="MOA"
+                android:textSize="10dp" />
 
             <Button
                 android:id="@+id/btn_Relay"
@@ -58,7 +62,8 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="Relay" />
+                android:text="Relay"
+                android:textSize="10dp" />
 
             <Button
                 android:id="@+id/btn_Effecacy"
@@ -67,8 +72,18 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="Efficacy" />
+                android:text="Efficacy"
+                android:textSize="10dp" />
 
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:layout_margin="5dp"
+            >
             <Button
                 android:id="@+id/btn_Safety"
                 android:layout_width="0dp"
@@ -76,7 +91,8 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="Safety" />
+                android:text="Safety"
+                android:textSize="10dp" />
 
             <Button
                 android:id="@+id/btn_Qol"
@@ -85,7 +101,8 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="QoL" />
+                android:text="QoL"
+                android:textSize="10dp" />
 
             <Button
                 android:id="@+id/btn_TreatmentPlanning"
@@ -94,16 +111,8 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="Treatment Planning" />
-        </LinearLayout>
-        <LinearLayout
-
-            android:layout_width="match_parent"
-            android:layout_height="75dp"
-            android:orientation="horizontal"
-            android:weightSum="8"
-            android:layout_margin="5dp"
-            >
+                android:text="Treatment"
+                android:textSize="8dp"/>
 
             <Button
                 android:id="@+id/btn_Summary"
@@ -112,7 +121,8 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="SUMMARY &amp; INDICATIONS" />
+                android:text="SUMMARY"
+                android:textSize="10dp"/>
 
             <Button
                 android:id="@+id/btn_Appendix"
@@ -121,7 +131,8 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="Treatment Planning" />
+                android:text="Appendix"
+                android:textSize="10dp" />
         </LinearLayout>
     </LinearLayout>
 

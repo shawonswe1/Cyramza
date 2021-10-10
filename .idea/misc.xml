@@ -4,7 +4,27 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-xxhdpi/edittext_style.xml" value="0.15703125" />
-        <entry key="app/src/main/res/layout/activity_cyramza_iva.xml" value="0.3089887640449438" />
+        <entry key="app/src/main/res/layout-large/activity_cyramza_iva.xml" value="0.45254237288135596" />
+        <entry key="app/src/main/res/layout-large/activity_home.xml" value="0.24635922330097088" />
+        <entry key="app/src/main/res/layout-large/activity_login.xml" value="0.125" />
+        <entry key="app/src/main/res/layout-large/activity_relay_iva.xml" value="0.125" />
+        <entry key="app/src/main/res/layout-large/activity_splash_screen.xml" value="0.15808823529411764" />
+        <entry key="app/src/main/res/layout-normal/activity_cyramza_iva.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout-normal/activity_home.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout-normal/activity_login.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout-normal/activity_relay_iva.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout-normal/activity_splash_screen.xml" value="0.17527173913043478" />
+        <entry key="app/src/main/res/layout-small/activity_cyramza_iva.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout-small/activity_home.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout-small/activity_login.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout-small/activity_relay_iva.xml" value="0.2" />
+        <entry key="app/src/main/res/layout-small/activity_splash_screen.xml" value="0.17527173913043478" />
+        <entry key="app/src/main/res/layout-xlarge/activity_cyramza_iva.xml" value="0.2" />
+        <entry key="app/src/main/res/layout-xlarge/activity_home.xml" value="0.13866120218579234" />
+        <entry key="app/src/main/res/layout-xlarge/activity_login.xml" value="0.125" />
+        <entry key="app/src/main/res/layout-xlarge/activity_relay_iva.xml" value="0.2" />
+        <entry key="app/src/main/res/layout-xlarge/activity_splash_screen.xml" value="0.11915024630541872" />
+        <entry key="app/src/main/res/layout/activity_cyramza_iva.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.12" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.11594202898550725" />

@@ -35,16 +35,15 @@
                     android:text="Type Of Work"
                     android:textColor="@color/black"
                     android:textStyle="bold"
-                    android:textSize="40dp"
+                    android:textSize="25dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
+                    android:layout_width="170dp"
                     android:layout_height="70dp"
                     android:layout_gravity="left"
-                    android:layout_marginEnd="40dp"
                     android:src="@drawable/logo3"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -64,21 +63,29 @@
                     android:orientation="vertical"
                     android:layout_weight="1"
                     >
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
-                        android:src="@drawable/logo4"
-                        android:layout_gravity="center"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Relay Iva"
-                        android:gravity="center"
-                        android:layout_gravity="center"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"
-                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="10dp"
+                        android:background="#48B74A2D"
+                        >
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/logo4"
+                            android:layout_gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Relay Iva"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            />
+                    </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/ly_Cyramza"
@@ -87,21 +94,29 @@
                     android:orientation="vertical"
                     android:layout_weight="1"
                     >
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
-                        android:src="@drawable/logo4"
-                        android:layout_gravity="center"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Cyramza Iva"
-                        android:gravity="center"
-                        android:layout_gravity="center"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"
-                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="10dp"
+                        android:background="#4FFFA311"
+                        >
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/logo5"
+                            android:layout_gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cyramza Iva"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            />
+                    </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="0dp"
@@ -109,96 +124,29 @@
                     android:orientation="vertical"
                     android:layout_weight="1"
                     >
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
-                        android:src="@drawable/logo4"
-                        android:layout_gravity="center"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Demo 3"
-                        android:gravity="center"
-                        android:layout_gravity="center"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"
-                        />
-                </LinearLayout>
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:weightSum="3"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="5dp"
-                >
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
-                    >
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
-                        android:src="@drawable/logo4"
-                        android:layout_gravity="center"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Dome 4"
-                        android:gravity="center"
-                        android:layout_gravity="center"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"
-                        />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
-                    >
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
-                        android:src="@drawable/logo4"
-                        android:layout_gravity="center"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Demo 5"
-                        android:gravity="center"
-                        android:layout_gravity="center"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"
-                        />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
-                    >
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
-                        android:src="@drawable/logo4"
-                        android:layout_gravity="center"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Demo 6"
-                        android:gravity="center"
-                        android:layout_gravity="center"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"
-                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="10dp"
+                        android:background="#548AC212"
+                        >
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/logo6"
+                            android:layout_gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Demo 3"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            />
+                    </LinearLayout>
                 </LinearLayout>
 
             </LinearLayout>
@@ -215,21 +163,29 @@
                     android:orientation="vertical"
                     android:layout_weight="1"
                     >
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
-                        android:src="@drawable/logo4"
-                        android:layout_gravity="center"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Demo 7"
-                        android:gravity="center"
-                        android:layout_gravity="center"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"
-                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="10dp"
+                        android:background="#451ADBE4"
+                        >
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/logo7"
+                            android:layout_gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dome 4"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            />
+                    </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="0dp"
@@ -237,21 +193,29 @@
                     android:orientation="vertical"
                     android:layout_weight="1"
                     >
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
-                        android:src="@drawable/logo4"
-                        android:layout_gravity="center"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Demo 8"
-                        android:gravity="center"
-                        android:layout_gravity="center"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"
-                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="10dp"
+                        android:background="#61CB84FE"
+                        >
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/logo8"
+                            android:layout_gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Demo 5"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            />
+                    </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="0dp"
@@ -259,21 +223,29 @@
                     android:orientation="vertical"
                     android:layout_weight="1"
                     >
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
-                        android:src="@drawable/logo4"
-                        android:layout_gravity="center"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Demo 9"
-                        android:gravity="center"
-                        android:layout_gravity="center"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"
-                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="10dp"
+                        android:background="#40122FFF"
+                        >
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/logo9"
+                            android:layout_gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Demo 6"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            />
+                    </LinearLayout>
                 </LinearLayout>
 
             </LinearLayout>
@@ -290,21 +262,29 @@
                     android:orientation="vertical"
                     android:layout_weight="1"
                     >
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
-                        android:src="@drawable/logo4"
-                        android:layout_gravity="center"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Demo 10"
-                        android:gravity="center"
-                        android:layout_gravity="center"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"
-                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="10dp"
+                        android:background="#4AF860FC"
+                        >
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/logo10"
+                            android:layout_gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Demo 7"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            />
+                    </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="0dp"
@@ -312,21 +292,29 @@
                     android:orientation="vertical"
                     android:layout_weight="1"
                     >
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
-                        android:src="@drawable/logo4"
-                        android:layout_gravity="center"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Demo 11"
-                        android:gravity="center"
-                        android:layout_gravity="center"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"
-                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="10dp"
+                        android:background="#3BCCCC00"
+                        >
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/logo11"
+                            android:layout_gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Demo 8"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            />
+                    </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="0dp"
@@ -334,21 +322,29 @@
                     android:orientation="vertical"
                     android:layout_weight="1"
                     >
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
-                        android:src="@drawable/logo4"
-                        android:layout_gravity="center"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Demo 12"
-                        android:gravity="center"
-                        android:layout_gravity="center"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"
-                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="10dp"
+                        android:background="#516D5FFE"
+                        >
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/logo12"
+                            android:layout_gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Demo 9"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            />
+                    </LinearLayout>
                 </LinearLayout>
 
             </LinearLayout>
