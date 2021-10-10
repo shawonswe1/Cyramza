@@ -18,7 +18,7 @@
         <LinearLayout
 
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="70dp"
             android:orientation="horizontal"
             android:weightSum="5"
             android:layout_margin="5dp"
@@ -43,7 +43,8 @@
                 android:layout_weight="1"
                 android:padding="10dp"
                 android:text="EXON 21"
-                android:textSize="10dp"/>
+                android:textSize="10dp"
+                />
 
             <Button
                 android:id="@+id/btn_moa"

@@ -9,12 +9,13 @@ import android.os.Handler;
 public class SplashScreenActivity extends AppCompatActivity {
 
     private static final int SPLASH_TIME_OUT = 3000;
+    PreConfig preConfig;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
         getSupportActionBar().hide();
-
+        preConfig = new PreConfig(this);
         startSplash();
     }
 
@@ -24,9 +25,17 @@ public class SplashScreenActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-
+                if (!preConfig.readUserName().isEmpty())
+                {
+                    startActivity(new Intent(SplashScreenActivity.this,HomeActivity.class));
+                    finish();
+                }
+                else
+                {
                     startActivity(new Intent(SplashScreenActivity.this,LoginActivity.class));
                     finish();
+                }
+
 
             }
         },SPLASH_TIME_OUT);

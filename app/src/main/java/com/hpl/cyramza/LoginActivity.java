@@ -13,12 +13,13 @@ public class LoginActivity extends AppCompatActivity {
 
     EditText email,pass;
     Button login;
+    PreConfig preConfig;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
+        preConfig = new PreConfig(this);
         email = findViewById(R.id.et_Email);
         pass = findViewById(R.id.et_Password);
         login = findViewById(R.id.btn_Login);
@@ -37,6 +38,7 @@ public class LoginActivity extends AppCompatActivity {
         if (email.equals("admin@mail.com")&&pass.equals("admin"))
         {
             startActivity(new Intent(LoginActivity.this,HomeActivity.class));
+            preConfig.writeUserName(email);
             finish();
         }
         else
